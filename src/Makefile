@@ -21,10 +21,10 @@ $(EXE).class: $(JAVAFILES)
 	$(JAVAC) $(JFLAGS) $(EXE).java
 
 run: all
-	$(JVM) $(EXE)
+	$(JVM) $(EXE)> output.txt
 
 regression: all
-	@for arg in 3 4 5; do $(JVM) $(EXE) $$arg ; done
+	@for arg in 3 4 5; do $(JVM) $(EXE) $$arg>> output.txt ; done
 
 clean:
 	rm -f $(CLASSES) #* *~
