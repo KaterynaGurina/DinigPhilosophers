@@ -61,14 +61,14 @@ public class DiningPhilosophers
 					if(nbPhilosophers < 0) {
 						System.out.println("%java DiningPhilosophers- " + argv[0]);
 						System.out.println("\"" + argv[0] + "\" is not Possitive decimal integer");
-						System.out.println("Usage: java DiningPhilosophers [" + nbPhilosophers + "]");
+						Usage(argv[0]);
 						return;
 					}
 					//checking if the command line had zero value
 					if(nbPhilosophers == 0){
 						System.out.println("%java DiningPhilosophers- " + argv[0]);
 						System.out.println("\"" + argv[0] + "\" is a zero integer");
-						System.out.println("Usage: java DiningPhilosophers [" + nbPhilosophers + "]");
+						Usage(argv[0]);
 						return;
 					}
 					else {
@@ -80,7 +80,7 @@ public class DiningPhilosophers
 
 				}catch(NumberFormatException e) {
 					System.out.println("\"" + argv[0] + "\" is not a positive integer!");
-					System.out.println("Usage: javaDiningPhilosophers [" + argv[0] + "]");
+					Usage(argv[0]);
 					return;
 				}
 
@@ -118,6 +118,8 @@ public class DiningPhilosophers
 			reportException(e);
 			System.exit(1);
 		}
+
+
 	} // main()
 
 	/**
@@ -130,6 +132,9 @@ public class DiningPhilosophers
 		System.err.println("Message          : " + poException.getMessage());
 		System.err.println("Stack Trace      : ");
 		poException.printStackTrace(System.err);
+	}
+	public static void Usage(String cmnd){
+		System.out.println("Usage: java DiningPhilosophers [" + cmnd + "]");
 	}
 }
 
