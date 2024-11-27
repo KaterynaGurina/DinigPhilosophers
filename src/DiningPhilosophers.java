@@ -51,13 +51,6 @@ public class DiningPhilosophers
 			if(argv.length > 0) {
 				try {
 
-					if(argv[0].contains(".")) {
-						System.out.println("java DiningPhilosophers -" + argv[0]);
-						System.out.println(argv[0] + " is not a positive decimal integer .");
-						System.out.println("\nUsage: java DiningPhilosophers [NUMBER_OF_PHILOSOPHERS]");
-						System.exit(0);
-					}
-
 					int nbPhilosophers = Integer.parseInt(argv[0]);
 
 
