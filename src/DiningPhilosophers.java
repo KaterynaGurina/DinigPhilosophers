@@ -1,3 +1,6 @@
+import java.io.FileNotFoundException;
+import java.io.PrintStream;
+
 /**
  * Class DiningPhilosophers
  * The main starter.
@@ -39,6 +42,14 @@ public class DiningPhilosophers
 	 */
 	public static void main(String[] argv)
 	{
+		try{
+			PrintStream test = new PrintStream("NonIntegerTest.txt");
+			System.setOut(test);
+		}catch(FileNotFoundException e){
+			System.out.println("File not found");
+			System.exit(0);
+
+		}
 		try
 		{
 			/*
@@ -79,6 +90,7 @@ public class DiningPhilosophers
 
 
 				}catch(NumberFormatException e) {
+					System.out.println("%java DiningPhilosophers- " + argv[0]);
 					System.out.println("\"" + argv[0] + "\" is not a positive integer!");
 					Usage(argv[0]);
 					return;

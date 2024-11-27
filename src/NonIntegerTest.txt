@@ -1,0 +1,3 @@
+%java DiningPhilosophers- -7.a
+"-7.a" is not a positive integer!
+Usage: java DiningPhilosophers [-7.a]
