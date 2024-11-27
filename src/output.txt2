@@ -1,0 +1,675 @@
+Philosopher 1 starts eating.
+3 philosopher(s) came in for a dinner.
+Philosopher 1 finishes eating.
+Philosopher 2 starts eating.
+Philosopher 1 starts thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: One chopstick is lonely, two chopsticks make art.
+Philosopher 1 finishes talk.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: You know, true is false and false is true if you think of it
+Philosopher 2 finishes talk.
+Philosopher 2 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 2 finishes talk.
+Philosopher 2 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: If thee cannot speak, thee must be silent
+Philosopher 3 finishes talk.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: One chopstick is lonely, two chopsticks make art.
+Philosopher 1 finishes talk.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 2 finishes talk.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: Life is just a recursive loop: think, eat, repeat.
+Philosopher 1 finishes talk.
+Philosopher 2 finishes thinking.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 2 finishes eating.
+Philosopher 3 starts eating.
+Philosopher 2 starts thinking.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 2 finishes thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 3 finishes thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: Infinity is a long time, especially when you're waiting to eat.
+Philosopher 2 finishes talk.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 1 finishes talk.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: If thee cannot speak, thee must be silent
+Philosopher 3 finishes talk.
+Philosopher 1 finishes thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 1 finishes eating.
+Philosopher 2 starts eating.
+Philosopher 1 starts thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: My number is 2
+Philosopher 2 finishes talk.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: If a tree falls in the forest, can I eat it?
+Philosopher 3 finishes talk.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: My number is 2
+Philosopher 2 finishes talk.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: I think, therefore I am... hungry.
+Philosopher 3 finishes talk.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 1 finishes talk.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 3 finishes thinking.
+All philosophers have left. System terminates normally.
+4 philosopher(s) came in for a dinner.
+Philosopher 1 starts eating.
+Philosopher 3 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: Parallelism is great, except when someone else gets the chopsticks.
+Philosopher 1 finishes talk.
+Philosopher 1 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: Infinity is a long time, especially when you're waiting to eat.
+Philosopher 3 finishes talk.
+Philosopher 3 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 4 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 3 finishes thinking.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 1 starts eating.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: If a tree falls in the forest, can I eat it?
+Philosopher 4 finishes talk.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 4 starts eating.
+Philosopher 2 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 2 finishes eating.
+Philosopher 1 starts eating.
+Philosopher 3 starts eating.
+Philosopher 2 starts thinking.
+Philosopher 3 finishes eating.
+Philosopher 4 finishes thinking.
+Philosopher 3 starts thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: I think, therefore I am... hungry.
+Philosopher 4 finishes talk.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 4 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: You know, true is false and false is true if you think of it
+Philosopher 1 finishes talk.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 1 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 2 finishes talk.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: If thee cannot speak, thee must be silent
+Philosopher 1 finishes talk.
+Philosopher 1 starts eating.
+Philosopher 4 finishes thinking.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 4 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: If thee cannot speak, thee must be silent
+Philosopher 3 finishes talk.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: Why do we even eat? To distract ourselves from the meaning of existence.
+Philosopher 1 finishes talk.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 1 starts eating.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: One chopstick is lonely, two chopsticks make art.
+Philosopher 4 finishes talk.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: Parallelism is great, except when someone else gets the chopsticks.
+Philosopher 2 finishes talk.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 4 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 4 finishes talk.
+Philosopher 4 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: Parallelism is great, except when someone else gets the chopsticks.
+Philosopher 1 finishes talk.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 3 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: You know, true is false and false is true if you think of it
+Philosopher 2 finishes talk.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: You know, true is false and false is true if you think of it
+Philosopher 1 finishes talk.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: My number is 4
+Philosopher 4 finishes talk.
+Philosopher 4 starts eating.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: If thee cannot speak, thee must be silent
+Philosopher 4 finishes talk.
+Philosopher 4 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: If thee cannot speak, thee must be silent
+Philosopher 2 finishes talk.
+Philosopher 2 starts eating.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts eating.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: If thee cannot speak, thee must be silent
+Philosopher 4 finishes talk.
+Philosopher 4 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 4 finishes thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: They say sharing is caring, but not in this particular situation.
+Philosopher 2 finishes talk.
+Philosopher 2 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: My number is 2
+Philosopher 2 finishes talk.
+Philosopher 2 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: Infinity is a long time, especially when you're waiting to eat.
+Philosopher 2 finishes talk.
+Philosopher 2 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: My number is 2
+Philosopher 2 finishes talk.
+All philosophers have left. System terminates normally.
+5 philosopher(s) came in for a dinner.
+Philosopher 3 starts eating.
+Philosopher 1 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 4 starts eating.
+Philosopher 3 starts thinking.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 5 starts eating.
+Philosopher 2 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 1 finishes thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: My number is 3
+Philosopher 3 finishes talk.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 4 finishes thinking.
+Philosopher 3 starts thinking.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 4 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: My number is 2
+Philosopher 2 finishes talk.
+Philosopher 2 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: Parallelism is great, except when someone else gets the chopsticks.
+Philosopher 4 finishes talk.
+Philosopher 4 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 5 finishes thinking.
+Philosopher 5 starts talking.
+Philosopher 5 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 5 finishes talk.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 5 starts eating.
+Philosopher 1 starts thinking.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: One chopstick is lonely, two chopsticks make art.
+Philosopher 3 finishes talk.
+Philosopher 3 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: If thee cannot speak, thee must be silent
+Philosopher 1 finishes talk.
+Philosopher 2 finishes thinking.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: Life is just a recursive loop: think, eat, repeat.
+Philosopher 4 finishes talk.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 4 starts eating.
+Philosopher 5 finishes thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: You know, true is false and false is true if you think of it
+Philosopher 3 finishes talk.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 5 starts eating.
+Philosopher 4 finishes thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: Why do we even eat? To distract ourselves from the meaning of existence.
+Philosopher 1 finishes talk.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts eating.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 4 starts eating.
+Philosopher 5 finishes thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 5 starts eating.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 5 finishes thinking.
+Philosopher 5 starts talking.
+Philosopher 5 says: You know, true is false and false is true if you think of it
+Philosopher 5 finishes talk.
+Philosopher 5 starts eating.
+Philosopher 4 finishes thinking.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 4 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 3 starts talking.
+Philosopher 3 says: Infinity is a long time, especially when you're waiting to eat.
+Philosopher 3 finishes talk.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: Infinity is a long time, especially when you're waiting to eat.
+Philosopher 1 finishes talk.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts eating.
+Philosopher 5 finishes thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: Infinity is a long time, especially when you're waiting to eat.
+Philosopher 4 finishes talk.
+Philosopher 4 starts eating.
+Philosopher 3 finishes thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: 2 + 2 = 5 for extremely large values of 2...
+Philosopher 2 finishes talk.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 4 finishes eating.
+Philosopher 5 starts eating.
+Philosopher 4 starts thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: Why do we even eat? To distract ourselves from the meaning of existence.
+Philosopher 1 finishes talk.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 3 starts eating.
+Philosopher 3 finishes eating.
+Philosopher 3 starts thinking.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: Infinity is a long time, especially when you're waiting to eat.
+Philosopher 4 finishes talk.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 4 starts eating.
+Philosopher 1 starts eating.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: Life is just a recursive loop: think, eat, repeat.
+Philosopher 2 finishes talk.
+Philosopher 2 starts eating.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: You know, true is false and false is true if you think of it
+Philosopher 1 finishes talk.
+Philosopher 3 finishes thinking.
+Philosopher 5 finishes thinking.
+Philosopher 5 starts talking.
+Philosopher 5 says: Why do we even eat? To distract ourselves from the meaning of existence.
+Philosopher 5 finishes talk.
+Philosopher 5 starts eating.
+Philosopher 4 finishes thinking.
+Philosopher 4 starts talking.
+Philosopher 4 says: Why do we even eat? To distract ourselves from the meaning of existence.
+Philosopher 4 finishes talk.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 4 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 2 starts eating.
+Philosopher 4 finishes eating.
+Philosopher 4 starts thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: You know, true is false and false is true if you think of it
+Philosopher 1 finishes talk.
+Philosopher 5 finishes thinking.
+Philosopher 5 starts eating.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 1 starts eating.
+Philosopher 4 finishes thinking.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 5 finishes thinking.
+Philosopher 5 starts eating.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: Eh, it's not easy to be a philosopher: eat, think, talk, eat...
+Philosopher 2 finishes talk.
+Philosopher 2 starts eating.
+Philosopher 2 finishes eating.
+Philosopher 2 starts thinking.
+Philosopher 2 finishes thinking.
+Philosopher 2 starts talking.
+Philosopher 2 says: They say sharing is caring, but not in this particular situation.
+Philosopher 2 finishes talk.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts eating.
+Philosopher 1 finishes eating.
+Philosopher 1 starts thinking.
+Philosopher 5 finishes thinking.
+Philosopher 5 starts talking.
+Philosopher 5 says: You know, true is false and false is true if you think of it
+Philosopher 5 finishes talk.
+Philosopher 5 starts eating.
+Philosopher 5 finishes eating.
+Philosopher 5 starts thinking.
+Philosopher 5 finishes thinking.
+Philosopher 1 finishes thinking.
+Philosopher 1 starts talking.
+Philosopher 1 says: Parallelism is great, except when someone else gets the chopsticks.
+Philosopher 1 finishes talk.
+All philosophers have left. System terminates normally.
