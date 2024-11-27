@@ -46,20 +46,25 @@ public class DiningPhilosophers
 			 * Should be settable from the command line
 			 * or the default if no arguments supplied.
 			 */
+			//Default number of the philosophers
 			int iPhilosophers = DEFAULT_NUMBER_OF_PHILOSOPHERS;
 
+			//checking if the command line has any new commands
 			if(argv.length > 0) {
 				try {
 
+					//converting the command line to an integer
 					int nbPhilosophers = Integer.parseInt(argv[0]);
 
 
+					//checking if the command line had a negative value
 					if(nbPhilosophers < 0) {
 						System.out.println("%java DiningPhilosophers- " + argv[0]);
 						System.out.println("\"" + argv[0] + "\" is not Possitive decimal integer");
 						System.out.println("Usage: java DiningPhilosophers [" + nbPhilosophers + "]");
 						return;
 					}
+					//checking if the command line had zero value
 					if(nbPhilosophers == 0){
 						System.out.println("%java DiningPhilosophers- " + argv[0]);
 						System.out.println("\"" + argv[0] + "\" is a zero integer");
@@ -67,6 +72,7 @@ public class DiningPhilosophers
 						return;
 					}
 					else {
+						//assigning the number
 						iPhilosophers = nbPhilosophers;
 					}
 
