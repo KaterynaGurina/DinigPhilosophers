@@ -43,7 +43,7 @@ public class DiningPhilosophers
 	public static void main(String[] argv)
 	{
 		try{
-			PrintStream test = new PrintStream("NonIntegerTest.txt");
+			PrintStream test = new PrintStream("DefaultTest.txt");
 			System.setOut(test);
 		}catch(FileNotFoundException e){
 			System.out.println("File not found");
