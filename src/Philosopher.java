@@ -24,8 +24,10 @@ public class Philosopher extends BaseThread {
      * - Then sleep() for a random interval.
      * - yield
      * - Then print that they are done eating.
+     *
+     * Simulates the act of eating by printing start and end messages and sleeping for a random time.
      */
-//K: I don't know what to put in the comment, the code is exactly what the comment above suggests line by line
+
     public void eat() {
         System.out.println("Philosopher " + getTID() + " starts eating.");
         Thread.yield();
@@ -48,8 +50,9 @@ public class Philosopher extends BaseThread {
      * - Then sleep() for a random interval.
      * - yield
      * - The print that they are done thinking.
+     *
+     * Simulates the act of thinking by printing start and end messages and sleeping for a random time.
      */
-    //K: same thing, just whats in the comment above
     public void think() {
         System.out.println("Philosopher " + getTID() + " starts thinking.");
         Thread.yield();
@@ -63,7 +66,6 @@ public class Philosopher extends BaseThread {
         }
         Thread.yield();
         System.out.println("Philosopher " + getTID() + " finishes thinking.");
-
     }
 
     /**
@@ -73,26 +75,30 @@ public class Philosopher extends BaseThread {
      * - Say something brilliant at random
      * - yield
      * - The print that they are done talking.
+     *
+     * Simulates the act of talking by printing start and end messages, and saying a random phrase.
      */
     public void talk() {
         System.out.println("Philosopher " + getTID() + " starts talking.");
         Thread.yield();
         saySomething();
         Thread.yield();
-        System.out.println("Philosopher " + getTID() + " finishes talk.");
+        System.out.println("Philosopher " + getTID() + " finishes talking.");
     }
 
     /**
      * No, this is not the act of running, just the overridden Thread.run()
+     *
+     * Represents the philosopher's lifecycle: alternates between eating, thinking, and occasionally talking.
+     * Picks up and puts down chopsticks, with synchronized access controlled by the Monitor.
      */
-    //Comment
     public void run() {
         for (int i = 0; i < DiningPhilosophers.DINING_STEPS; i++) {
-            DiningPhilosophers.soMonitor.pickUp(getTID());
+            DiningPhilosophers.soMonitor.pickUp(getTID()-1);
 
             eat();
 
-            DiningPhilosophers.soMonitor.putDown(getTID());
+            DiningPhilosophers.soMonitor.putDown(getTID()-1);
 
             think();
 
@@ -106,7 +112,6 @@ public class Philosopher extends BaseThread {
                 talk();
                 DiningPhilosophers.soMonitor.endTalk();
             }
-
             Thread.yield();
         }
     } // run()

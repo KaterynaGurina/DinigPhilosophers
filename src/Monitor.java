@@ -11,9 +11,10 @@ public class Monitor
 	 * Data members
 	 * ------------
 	 */
-	private boolean[] chopsticks; // Tracks availability of chopsticks
-	private final int numPhilosophers;
-	private boolean isSomeoneTalking = false; // Tracks talking state
+	private enum State { THINKING, HUNGRY, EATING } // Philosopher states
+	private final State[] state; // Tracks the state of each philosopher
+	private final int numPhilosophers; // Total number of philosophers
+	private boolean isSomeoneTalking = false; // Tracks whether a philosopher is talking
 
 	/**
 	 * Constructor
@@ -22,11 +23,11 @@ public class Monitor
 
 	public Monitor(int numPhilosophers) {
 		this.numPhilosophers = numPhilosophers;
-		chopsticks = new boolean[numPhilosophers];
+		state = new State[numPhilosophers];
 
-		// Initialize all chopsticks to available
+		// Initialize all philosophers as THINKING
 		for (int i = 0; i < numPhilosophers; i++) {
-			chopsticks[i] = true; // true = available
+			state[i] = State.THINKING;
 		}
 	}
 
@@ -37,76 +38,66 @@ public class Monitor
 	 */
 
 	/**
-	 * Grants request (returns) to eat when both chopsticks/forks are available.
-	 * Else forces the philosopher to wait()
+	 * A philosopher attempts to pick up their left and right chopsticks.
+	 * If both chopsticks are not available, the philosopher waits.
+	 * The state is set to hungry, then we check if the neighboors are not eating, this means that this philosopher can eat
+	 * if he cant, then he waits
+	 * if he can, then the state is changes to eating
 	 */
-	//K: Allows a philosopher to pick up their left and right chopsticks to eat.
-	//If either chopstick is unavailable, the philosopher waits.
-	//Convert the philosopher's ID (piTID) into zero-based indices:
-	//Left chopstick: philosopherIndex (same as the philosopher’s index).
-	//Right chopstick: (philosopherIndex + 1) % numPhilosophers (circular wrap-around).
-	//Check if both chopsticks are available:
-	//If they are not, the philosopher calls wait() to release the lock and wait for a notification.
-	//When both chopsticks are free: Set their states to false (in use).
-	//The philosopher can proceed to eat.
-	public synchronized void pickUp(final int piTID) {
-		int philosopherIndex = piTID - 1; // Convert to zero-based index
-		int leftChopstick = philosopherIndex;
-		int rightChopstick = (philosopherIndex + 1) % numPhilosophers;
+	public synchronized void pickUp(int i) {
+		// Philosopher becomes hungry
+		state[i] = State.HUNGRY;
 
-		// Wait until both chopsticks are available
-		while (!chopsticks[leftChopstick] || !chopsticks[rightChopstick]) {
+		// Check if the philosopher can eat
+		while (!canEat(i)) {
 			try {
-				wait(); // Wait for chopsticks to become available
+				wait(); // Wait until chopsticks become available
 			} catch (InterruptedException e) {
-				Thread.currentThread().interrupt(); // Restore interrupt status
+				Thread.currentThread().interrupt();
 			}
 		}
 
-		// Pick up both chopsticks
-		chopsticks[leftChopstick] = false;
-		chopsticks[rightChopstick] = false;
+		// Philosopher starts eating
+		state[i] = State.EATING;
 	}
 
 	/**
 	 * When a given philosopher's done eating, they put the chopstiks/forks down
 	 * and let others know they are available.
+	 * the state is set to thinkg
+	 * and then we notify the waiting philosophers that the can recheck if they can eat
 	 */
-	//K: Releases the left and right chopsticks after a philosopher finishes eating.
-	//Notifies all waiting philosophers that resources may now be available.
-	//Convert the philosopher's ID (piTID) into zero-based indices for their chopsticks.
-	//Set both chopsticks to true (available).
-	//Call notifyAll() to wake up all waiting philosophers so they can recheck their conditions.
-	public synchronized void putDown(final int piTID) {
-		int philosopherIndex = piTID - 1; // Convert to zero-based index
-		int leftChopstick = philosopherIndex;
-		int rightChopstick = (philosopherIndex + 1) % numPhilosophers;
+	public synchronized void putDown(int i) {
+		// Philosopher finishes eating and starts thinking
+		state[i] = State.THINKING;
 
-		// Put down both chopsticks
-		chopsticks[leftChopstick] = true;
-		chopsticks[rightChopstick] = true;
-
-		// Notify all waiting philosophers
+		// Notify all waiting philosophers to recheck conditions
 		notifyAll();
 	}
 
+	/**
+	 * Tests if philosopher `i` can eat based on the states of his neighbors.
+	 * A philosopher can eat if his state is hungry and both of his neighbors are not eating.
+	 */
+	private boolean canEat(int i) {
+		return state[i] == State.HUNGRY &&
+				state[(i + numPhilosophers - 1) % numPhilosophers] != State.EATING &&
+				state[(i + 1) % numPhilosophers] != State.EATING;
+	}
 
 	/**
-	 * Only one philopher at a time is allowed to philosophy
+	 * Only one philosopher at a time is allowed to philosophy
 	 * (while she is not eating).
+	 * If another philosopher is already talking the current one waits
+	 * when no one is talking the current phys sets isSomoneTalking to true and talks
 	 */
-	//K: Ensures that only one philosopher can talk at a time.
-	//If another philosopher is talking, the current philosopher must wait.
-	//Use the isSomeoneTalking boolean to track if a philosopher is currently talking.
-	//If isSomeoneTalking is true, the philosopher calls wait() to release the lock and wait for a notification.
-	//Once the philosopher is allowed to talk, set isSomeoneTalking to true.
 	public synchronized void requestTalk() {
-		// Wait until no one is talking
+		// Wait until no one else is talking
 		while (isSomeoneTalking) {
 			try {
-				wait(); // Wait for a notification that talking is free
+				wait();
 			} catch (InterruptedException e) {
-				Thread.currentThread().interrupt(); // Restore interrupt status
+				Thread.currentThread().interrupt();
 			}
 		}
 
@@ -118,16 +109,15 @@ public class Monitor
 	/**
 	 * When one philosopher is done talking stuff, others
 	 * can feel free to start talking.
+	 * Releases talking privilege
+	 * Notifies other waiting philosophers to recheck if they can start talking
 	 */
-	//K: Releases the talking privilege after a philosopher finishes talking.
-	//Notifies waiting philosophers that they can now talk.
-	//Set isSomeoneTalking to false (no one is talking).
-	//Call notifyAll() to wake up all waiting philosophers.
+
 	public synchronized void endTalk() {
 		// Philosopher finishes talking
 		isSomeoneTalking = false;
 
-		// Notify waiting philosophers
+		// Notify all waiting philosophers
 		notifyAll();
 	}
 
